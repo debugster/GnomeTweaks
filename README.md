@@ -72,5 +72,19 @@ sudo apt-get install albert
 ```
 - After installation, you can open Albert from Menu/Dash and set hotkey to activate albert.
 
-# Issues
-- No issues so far.
+# Known Issues
+### System Monitor, Calculator don't use GTK Themes
+- This is because those applications are installed as snap packages. To verify, execute:
+```bash
+snap list
+```
+- The snap execution environment doesn't see any of the themes on your system (local or system-wide). So this is somewhat an expected behaviour.
+- As a workaround, you may want to remove those snap applications. To remove those, execute:
+```bash
+sudo snap remove system-monitor
+sudo snap remove calculator
+```
+- And install their apt versions. To install, execute:
+```bash
+sudo apt install gnome-system-monitor gnome-calculator
+```
