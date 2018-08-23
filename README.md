@@ -31,3 +31,15 @@ This script installs Themes, Shell Themes, Icons and Cursors that make you feel 
 sudo apt update
 sudo apt install xterm
 ```
+- Save [this](https://github.com/debugster/GnomeTweaks/blob/master/InstallMacTheme.sh) script on your desktop.
+- Open **Terminal** again and execute
+```bash
+cd Desktop
+chmod +x InstallMacTheme.sh
+./InstallMacTheme.sh
+```
+
+# Caution
+- Don't run this script as **sudo**.
+- This script will open **xterm** several time to install some required packages. When promted, enter your password on **xterm** window.
+
