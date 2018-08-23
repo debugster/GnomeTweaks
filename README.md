@@ -11,18 +11,18 @@ This script installs Themes, Shell Themes, Icons and Cursors that make you feel 
 - 1 **_Plymouth_** Theme (Optional)
 
 # Credits
-## GTK Themes
+### GTK Themes
 - [paulxfce](https://www.gnome-look.org/p/1241688/)
-## Gnome Shell Themes
+### Gnome Shell Themes
 - [unc926](https://www.gnome-look.org/p/1213208/)
-## Cursor Themes
+### Cursor Themes
 - [dcomim](https://www.gnome-look.org/p/1241071/)
 - [krourke](https://www.gnome-look.org/p/1148692/)
-## Icon Themes
+### Icon Themes
 - [krourke](https://www.gnome-look.org/p/1148695/)
 - [umayanga](https://www.gnome-look.org/p/1102582/)
 - [zayronXIO](https://www.gnome-look.org/p/1210856/)
-## Plymouth Theme
+### Plymouth Theme
 - [LozanoJack](https://www.gnome-look.org/p/1009320/)
 
 # Installation
@@ -32,7 +32,7 @@ sudo apt update
 sudo apt install xterm
 ```
 - Save [this](https://github.com/debugster/GnomeTweaks/blob/master/InstallMacTheme.sh) script on your desktop.
-## Caution
+### Caution
 - Don't run this script as **sudo**.
 - This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
 
