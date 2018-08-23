@@ -29,22 +29,22 @@ tar xvf CustomizedPack.tar.xz -C CustomizedPack
 clear
 cd CustomizedPack
 [ ! -d ~/.themes ] && mkdir -p ~/.themes
+[ ! -d ~/Downloads/Apple-Darwin-For-Plymouth/darwin ] && mkdir -p ~/Downloads/Apple-Darwin-For-Plymouth/darwin
 [ ! -d ~/.icons ] && mkdir -p ~/.icons
-[ ! -d ~/.icons/El_Capitan_CursorsMODNew ] && mkdir -p ~/.icons/El_Capitan_CursorsMODNew
-[ ! -d ~/.icons/macOS11 ] && mkdir -p ~/.icons/macOS11
 [ ! -d ~/.local/share/fonts ] && mkdir -p ~/.local/share/fonts
 [ ! -d ~/.local/share/gnome-shell/extensions ] && mkdir -p ~/.local/share/gnome-shell/extensions
 
 #ls
 
 echo -e "${GREEN}Copying Cursor Files${NC}"
-cp -r Cursor/El_Capitan_CursorsMODNew/* ~/.icons/El_Capitan_CursorsMODNew/
+cp -r Cursor/* ~/.icons/
 echo -e "${GREEN}Copying Icon Files${NC}"
-cp -r Icons/macOS11/* ~/.icons/macOS11/
+cp -r Icons/* ~/.icons/
 echo -e "${GREEN}Copying Shell Files${NC}"
 cp -r Shell/* ~/.themes/
 echo -e "${GREEN}Copying Theme Files${NC}"
 cp -r Themes/* ~/.themes/
+cp -r Apple-Darwin-For-Plymouth/darwin/* ~/Downloads/Apple-Darwin-For-Plymouth/darwin/
 echo -e "${GREEN}Copying Fonts${NC}"
 cp -r Fonts/* ~/.local/share/fonts/
 echo -e "${GREEN}Copying Wallpapers${NC}"
@@ -126,7 +126,6 @@ echo -e "${YELLOW}Uninstalling Ubuntu Dock (It might be seen on lock screen)${NC
 xterm -e 'sh -c "echo Ubuntu dock will be uninstalled. Please enter your password.; sudo apt-get remove gnome-shell-extension-ubuntu-dock; sudo apt update"'
 echo -e "${CYAN}Theme Credit   : ${NC}${GREEN}paulxfce${NC}"
 echo -e "${CYAN}Shell Credit   : ${NC}${GREEN}unc926${NC}"
-echo -e "${CYAN}Icons Credit   : ${NC}${GREEN}umayanga${NC}"
 echo -e "${CYAN}Cursor Credit  : ${NC}${GREEN}dcomim${NC}"
+echo -e "${CYAN}Icons Credit   : ${NC}${GREEN}umayanga${NC}"
 echo -e "${GREEN}Thank You :)${NC}"
-
