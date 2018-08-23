@@ -36,7 +36,7 @@ sudo apt install xterm
 - Don't run this script as **sudo**.
 - This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
 
-- Open **Terminal** again and execute
+- Open **Terminal** again and execute:
 ```bash
 cd Desktop
 chmod +x InstallMacTheme.sh
