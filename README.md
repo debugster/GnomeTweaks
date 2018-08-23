@@ -43,8 +43,8 @@ chmod +x InstallMacTheme.sh
 ./InstallMacTheme.sh
 ```
 
-# Additional
-### Installing Plymouth Theme (macOS like Boot Splash Screen) (Optional)
+# Additional Installation
+### Installing Plymouth Theme (macOS like Boot Splash Screen)
 The installation of boot splash screen is made optional. To install it, follow:
 - Open File Manager using root access. Open **Terminal** and execute:
 ```bash
@@ -62,8 +62,8 @@ sudo update-alternatives --config default.plymouth
 ```bash
 sudo update-initramfs -u
 ```
-### Albert Spotlight
-If you like to install **Albert Spotlight** (like as macOS Spotlight), you may follow:
+### Albert Spotlight (macOS like Spotlight)
+If you like to install **Albert Spotlight**, you may follow:
 - Open **Terminal** end execute:
 ```bash
 sudo add-apt-repository ppa:noobslab/macbuntu
