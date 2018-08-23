@@ -1,5 +1,5 @@
 # Install Mac Themes on Ubuntu 18.04.* LTS
-This script installs Themes, Shell Themes, Icons and Cursors that make you feel like Apple's macOS.
+This script installs Themes, Shell Themes, Icons and Cursors that will make you feel like Apple's macOS.
 
 # This Customization Pack Includes
 - 2 **_GTK_** Themes
