@@ -65,7 +65,7 @@ sudo add-apt-repository ppa:noobslab/macbuntu
 sudo apt-get update
 sudo apt-get install albert
 ```
-- After installation you can open Albert from Menu/Dash, and first set hotkey to activate albert.
+- After installation, you can open Albert from Menu/Dash and set hotkey to activate albert.
 
 # Issues
 - No issues so far.
