@@ -32,16 +32,15 @@ sudo apt update
 sudo apt install xterm
 ```
 - Save [this](https://github.com/debugster/GnomeTweaks/blob/master/InstallMacTheme.sh) script on your desktop.
+## Caution
+- Don't run this script as **sudo**.
+- This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
 - Open **Terminal** again and execute
 ```bash
 cd Desktop
 chmod +x InstallMacTheme.sh
 ./InstallMacTheme.sh
 ```
-
-# Caution
-- Don't run this script as **sudo**.
-- This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
 
 # Installing Plymouth Theme (macOS like Boot Splash Screen) (Optional)
 The installation of boot splash screen is made optional. To install it, follow:
