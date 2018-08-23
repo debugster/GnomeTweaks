@@ -8,6 +8,7 @@ This script installs Themes, Shell Themes, Icons and Cursors that make you feel 
 - 3 Icon Themes
 - 5 Wallpapers
 - 2 Fonts (For Gnome Shell)
+- 1 Plymouth Theme (Optional)
 
 # Credits
 ## GTK Themes
@@ -21,3 +22,12 @@ This script installs Themes, Shell Themes, Icons and Cursors that make you feel 
 - [krourke](https://www.gnome-look.org/p/1148695/)
 - [umayanga](https://www.gnome-look.org/p/1102582/)
 - [zayronXIO](https://www.gnome-look.org/p/1210856/)
+## Plymouth Theme
+- [LozanoJack](https://www.gnome-look.org/p/1009320/)
+
+# Installation
+- **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
+'''
+sudo apt update
+sudo apt install xterm
+'''
