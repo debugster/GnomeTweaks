@@ -2,13 +2,13 @@
 This script installs Themes, Shell Themes, Icons and Cursors that make you feel like Apple's macOS.
 
 # This Customization Pack Includes
-- 2 GTK Themes
-- 2 Gnome Shell Themes
-- 2 Cursor Themes
-- 3 Icon Themes
-- 5 Wallpapers
-- 2 Fonts (For Gnome Shell)
-- 1 Plymouth Theme (Optional)
+- 2 **_GTK_** Themes
+- 2 **_Gnome Shell_** Themes
+- 2 **_Cursor_** Themes
+- 3 **_Icon_** Themes
+- 5 **_Wallpapers_**
+- 2 **_Fonts_** (For Gnome Shell)
+- 1 **_Plymouth_** Theme (Optional)
 
 # Credits
 ## GTK Themes
