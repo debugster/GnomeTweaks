@@ -54,7 +54,7 @@ sudo cp -r darwin/* /usr/share/plymouth/themes/darwin/
 sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/darwin/darwin.plymouth 100
 sudo update-alternatives --config default.plymouth
 ```
-- After execution the last command, you will promted with a list of plymouth themes. Enter the id of Darwin plymouth theme.
+- After executing the last command, you will be promted with a list of plymouth themes. Enter the id of Darwin plymouth theme.
 - Finally execute:
 ```bash
 sudo update-initramfs -u
