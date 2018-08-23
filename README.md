@@ -81,8 +81,8 @@ snap list
 - The snap execution environment doesn't see any of the themes on your system (local or system-wide). So this is somewhat an expected behaviour.
 - As a workaround, you may want to remove those snap applications. To remove those, execute:
 ```bash
-sudo snap remove system-monitor
-sudo snap remove calculator
+sudo snap remove gnome-system-monitor
+sudo snap remove gnome-calculator
 ```
 - And install their apt versions. To install, execute:
 ```bash
