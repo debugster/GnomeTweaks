@@ -45,12 +45,10 @@ chmod +x InstallMacTheme.sh
 
 # Installing Plymouth Theme (macOS like Boot Splash Screen) (Optional)
 The installation of boot splash screen is made optional. To install it, follow:
-- Go to [this link](https://www.dropbox.com/s/42mx0in9fbt8bvu/Apple-Darwin-For-Plymouth.zip) and download the file.
-- Extract the downloaded file.
-- Open **Terminal** in this direcroy and execute:
+- Open **Terminal** and execute:
 ```bash
 sudo mkdir /usr/share/plymouth/themes/darwin
-sudo cp -r darwin/* /usr/share/plymouth/themes/darwin/
+sudo cp -r ~/Downloads/Apple-Darwin-For-Plymouth/darwin/* /usr/share/plymouth/themes/darwin/
 sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/darwin/darwin.plymouth 100
 sudo update-alternatives --config default.plymouth
 ```
