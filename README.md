@@ -59,3 +59,6 @@ sudo update-alternatives --config default.plymouth
 ```bash
 sudo update-initramfs -u
 ```
+
+# Issues
+- No issues so far.
