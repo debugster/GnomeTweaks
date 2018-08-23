@@ -41,5 +41,21 @@ chmod +x InstallMacTheme.sh
 
 # Caution
 - Don't run this script as **sudo**.
-- This script will open **xterm** several time to install some required packages. When promted, enter your password on **xterm** window.
+- This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
 
+# Installing Plymouth Theme (macOS like Boot Splash Screen) (Optional)
+The installation of boot splash screen is made optional. To install it, follow:
+- Go to [this link](https://www.dropbox.com/s/42mx0in9fbt8bvu/Apple-Darwin-For-Plymouth.zip) and download the file.
+- Extract the downloaded file.
+- Open **Terminal** in this direcroy and execute:
+```bash
+sudo mkdir /usr/share/plymouth/themes/darwin
+sudo cp -r darwin/* /usr/share/plymouth/themes/darwin/
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/darwin/darwin.plymouth 100
+sudo update-alternatives --config default.plymouth
+```
+- After execution the last command, you will promted with a list of plymouth themes. Enter the id of Darwin plymouth theme.
+- Finally execute:
+```bash
+sudo update-initramfs -u
+```
