@@ -18,12 +18,12 @@ echo -e "				${RED}#####################################${NC}"
 #Install required packages
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Attempting to install Required Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
 xterm -e 'sh -c "echo Curl, Gnome Tweak Tool and GTK Clutter will be installed. Please enter your password.; sudo apt update; sudo apt install curl gnome-tweak-tool gir1.2-gtkclutter-1.0"'
-echo -e "${GREEN}Finished : ${NC}${YELLOW}Installing Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
+echo -e "${GREEN}Finished  : ${NC}${YELLOW}Installing Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
 
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Downloading required files${NC}"
 cd ~/Downloads/
-curl -L -O https://www.dropbox.com/s/nzbnudv17ujszkg/CustomizedPack.tar.xz
-echo -e "${GREEN}Finished : ${NC}${YELLOW}Downloading required files${NC}"
+curl -L -O https://www.dropbox.com/s/vrc3cxatpb060da/CustomizedPack.tar.xz
+echo -e "${GREEN}Finished  : ${NC}${YELLOW}Downloading required files${NC}"
 [ ! -d CustomizedPack ] && mkdir -p CustomizedPack
 tar xvf CustomizedPack.tar.xz -C CustomizedPack
 clear
@@ -55,7 +55,7 @@ cd ~/Downloads/CustomizedPack/
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Installing required extensions${NC}"
 ./gnome-ext-install.sh install user-theme@gnome-shell-extensions.gcampax.github.com dash-to-dock@micxgx.gmail.com blyr@yozoon.dev.gmail.com netspeed@hedayaty.gmail.com
 clear
-echo -e "${GREEN}Finished : ${NC}${YELLOW}User Theme, Blyr, Dash to Dock, Net Speed Monitor extensions are installed.${NC}"
+echo -e "${GREEN}Finished  : ${NC}${YELLOW}User Theme, Blyr, Dash to Dock, Net Speed Monitor extensions are installed.${NC}"
 
 #Changing UI
 ## Application Theme
@@ -128,4 +128,4 @@ echo -e "${CYAN}Theme Credit   : ${NC}${GREEN}paulxfce${NC}"
 echo -e "${CYAN}Shell Credit   : ${NC}${GREEN}unc926${NC}"
 echo -e "${CYAN}Cursor Credit  : ${NC}${GREEN}dcomim${NC}"
 echo -e "${CYAN}Icons Credit   : ${NC}${GREEN}umayanga${NC}"
-echo -e "${GREEN}Thank You :)${NC}"
+echo -e "${GREEN}DONE. ENJOY ;)${NC}"
