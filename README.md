@@ -57,6 +57,15 @@ sudo update-alternatives --config default.plymouth
 ```bash
 sudo update-initramfs -u
 ```
+# Additional
+If you like to install **Albert Spotlight** (like as macOS Spotlight), you may follow:
+- Open **Terminal** end execute:
+```bash
+sudo add-apt-repository ppa:noobslab/macbuntu
+sudo apt-get update
+sudo apt-get install albert
+```
+- After installation you can open Albert from Menu/Dash, and first set hotkey to activate albert.
 
 # Issues
 - No issues so far.
