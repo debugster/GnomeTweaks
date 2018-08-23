@@ -27,7 +27,7 @@ This script installs Themes, Shell Themes, Icons and Cursors that make you feel 
 
 # Installation
 - **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
-```
+```bash
 sudo apt update
 sudo apt install xterm
 ```
