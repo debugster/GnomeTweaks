@@ -2,7 +2,7 @@
 Installing macOS themes on your favourite Linux Distro.
 
 # Requirements
-- **Operating System**    : **Ubuntu 18.04.\* LTS** or **Kali Linux 2018.***
+- **Operating System** : **Ubuntu 18.04.\* LTS** or **Kali Linux 2018.***
 - **Desktop Environment** : **Gnome**
 
 # Tested on
