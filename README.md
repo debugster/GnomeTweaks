@@ -65,8 +65,8 @@ sudo apt install xterm
 ```
 - Save [this](https://github.com/debugster/GnomeTweaks/blob/master/macKali.sh) script on your desktop.
 ### Caution
-- Don't run this script as **sudo**.
-- This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
+- Don't run this script as **sudo** except you are the **root** user.
+- This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window (except **root** user).
 
 - Open **Terminal** again and execute:
 ```bash
