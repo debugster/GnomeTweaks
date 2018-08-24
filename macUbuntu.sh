@@ -2,18 +2,21 @@
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
+BROWN='\033[0;33m'
 BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 CYAN='\033[1;36m'
 NC='\033[0m' # No Color
 
 clear
-echo -e "				${RED}#####################################${NC}"
-echo -e "				${RED}#  Author   : Nayeem Mahmood        #${NC}"
-echo -e "				${RED}#  Email    : alive.dew@gmail.com   #${NC}"
-echo -e "				${RED}#  Facebook : fb.com/alive.nayeem   #${NC}"
-echo -e "				${RED}#  GitHub   : github.com/debugster  #${NC}"
-echo -e "				${RED}#####################################${NC}"
+echo -e "			${BROWN}########################################${NC}"
+echo -e "			${BROWN}#  macOS Theme for Ubuntu 18.04.* LTS  #${NC}"
+echo -e "			${BROWN}#--------------------------------------#${NC}"
+echo -e "			${BROWN}#  Author   : Nayeem Mahmood           #${NC}"
+echo -e "			${BROWN}#  Email    : alive.dew@gmail.com      #${NC}"
+echo -e "			${BROWN}#  Facebook : fb.com/alive.nayeem      #${NC}"
+echo -e "			${BROWN}#  GitHub   : github.com/debugster     #${NC}"
+echo -e "			${BROWN}########################################${NC}"
 
 #Install required packages
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Attempting to install Required Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
@@ -117,6 +120,19 @@ dconf write /org/gnome/shell/extensions/dash-to-dock/show-apps-at-top "true"
 echo -e "${BLUE}Changing Mouse Scroll Action to Cycle Windows${NC}"
 dconf write /org/gnome/shell/extensions/dash-to-dock/scroll-action "'cycle-windows'"
 
+## Custom Dock Indicator
+echo -e "${BLUE}Changing Dock Indicator${NC}"
+dconf write /org/gnome/shell/extensions/dash-to-dock/custom-theme-running-dots "false"
+dconf write /org/gnome/shell/extensions/dash-to-dock/custom-theme-customize-running-dots "false"
+
+## Disable Custom Dock Shrink
+echo -e "${BLUE}Disabling Custom Dock Shrink${NC}"
+dconf write /org/gnome/shell/extensions/dash-to-dock/custom-theme-shrink "false"
+
+## Dock Transparency Mode
+echo -e "${BLUE}Changing Dock Transparency Mode${NC}"
+dconf write /org/gnome/shell/extensions/dash-to-dock/transparency-mode "'DEFAULT'"
+
 echo -e "${RED}Removing Downloaded Unnecessary Files${NC}"
 cd ~/Downloads/
 rm -rf CustomizedPack
@@ -126,6 +142,6 @@ echo -e "${YELLOW}Uninstalling Ubuntu Dock (It might be seen on lock screen)${NC
 xterm -e 'sh -c "echo Ubuntu dock will be uninstalled. Please enter your password.; sudo apt-get remove gnome-shell-extension-ubuntu-dock; sudo apt update"'
 echo -e "${CYAN}Theme Credit   : ${NC}${GREEN}paulxfce${NC}"
 echo -e "${CYAN}Shell Credit   : ${NC}${GREEN}unc926${NC}"
-echo -e "${CYAN}Cursor Credit  : ${NC}${GREEN}dcomim${NC}"
-echo -e "${CYAN}Icons Credit   : ${NC}${GREEN}umayanga${NC}"
+echo -e "${CYAN}Cursor Credit  : ${NC}${GREEN}dcomim | krourke${NC}"
+echo -e "${CYAN}Icons Credit   : ${NC}${GREEN}krourke | umayanga | zayronXIO${NC}"
 echo -e "${GREEN}DONE. ENJOY ;)${NC}"
