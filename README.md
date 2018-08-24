@@ -1,5 +1,19 @@
-- # [Install macOS Themes on Ubuntu 18.04.* LTS](#install-macos-themes-on-ubuntu-1804-lts-1)
-- # [Install macOS Themes on Kali Linux 2018.* ](#install-macos-themes-on-kali-linux-2018)
+# Introduction
+Installing macOS themes on your favourite Linux Distro.
+
+# Requirements
+- **Operating System**    : **Ubuntu 18.04.* LTS** or **Kali Linux 2018.***
+- **Desktop Environment** : **Gnome**
+
+# Tested on
+- **Ubuntu 18.04 LTS** with **Gnome 3.28.2**
+- **Ubuntu 18.04.1 LTS** with **Gnome 3.28.2**
+- **Kali Linux 2018.2** with **Gnome 3.28**
+
+# Choose Your OS
+
+- ## [Install macOS Themes on Ubuntu 18.04.* LTS](#install-macos-themes-on-ubuntu-1804-lts-1)
+- ## [Install macOS Themes on Kali Linux 2018.* ](#install-macos-themes-on-kali-linux-2018)
 
 # This Customization Pack Includes
 - 2 **_GTK_** Themes
