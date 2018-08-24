@@ -8,7 +8,7 @@
 - 3 **_Icon_** Themes
 - 5 **_Wallpapers_**
 - 2 **_Fonts_** (For Gnome Shell)
-- 1 **_Plymouth_** Theme (Optional)
+- 1 **_Plymouth_** Theme (Optional, only for Ubuntu)
 
 # Credits
 ### GTK Themes
@@ -31,7 +31,7 @@
 sudo apt update
 sudo apt install xterm
 ```
-- Save [this](https://github.com/debugster/GnomeTweaks/blob/master/InstallMacTheme.sh) script on your desktop.
+- Save [this](https://github.com/debugster/GnomeTweaks/blob/master/macUbuntu.sh) script on your desktop.
 ### Caution
 - Don't run this script as **sudo**.
 - This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
@@ -39,8 +39,8 @@ sudo apt install xterm
 - Open **Terminal** again and execute:
 ```bash
 cd Desktop
-chmod +x InstallMacTheme.sh
-./InstallMacTheme.sh
+chmod +x macUbuntu.sh
+./macUbuntu.sh
 ```
 
 # Install macOS Themes on Kali Linux 2018.*
@@ -49,7 +49,7 @@ chmod +x InstallMacTheme.sh
 sudo apt update
 sudo apt install xterm
 ```
-- Save [this](https://github.com/debugster/GnomeTweaks/blob/master/InstallMacTheme.sh) script on your desktop.
+- Save [this](https://github.com/debugster/GnomeTweaks/blob/master/macKali.sh) script on your desktop.
 ### Caution
 - Don't run this script as **sudo**.
 - This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
@@ -57,12 +57,12 @@ sudo apt install xterm
 - Open **Terminal** again and execute:
 ```bash
 cd Desktop
-chmod +x InstallMacTheme.sh
-./InstallMacTheme.sh
+chmod +x macKali.sh
+./macKali.sh
 ```
 
 # Additional Installation
-### Installing Plymouth Theme (macOS like Boot Splash Screen)
+### Installing Plymouth Theme (macOS like Boot Splash Screen, only for Ubuntu)
 The installation of boot splash screen is made optional. To install it, follow:
 - Open File Manager using root access. Open **Terminal** and execute:
 ```bash
@@ -83,15 +83,30 @@ sudo update-initramfs -u
 ### Albert Spotlight (macOS like Spotlight)
 If you like to install **Albert Spotlight**, you may follow:
 - Open **Terminal** end execute:
+#### On Ubuntu
 ```bash
-sudo add-apt-repository ppa:noobslab/macbuntu
-sudo apt-get update
-sudo apt-get install albert
+wget -nv -O Release.key \
+  https://build.opensuse.org/projects/home:manuelschneid3r/public_key
+sudo apt-key add - < Release.key
+sudo apt update
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_18.04/ /' > /etc/apt/sources.list.d/home:manuelschneid3r.list"
+sudo apt update
+sudo apt install albert
+```
+#### On Kali
+```bash
+wget -nv -O Release.key \
+  https://build.opensuse.org/projects/home:manuelschneid3r/public_key
+sudo apt-key add - < Release.key
+sudo apt update
+sudo echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/Debian_Testing/ /' > /etc/apt/sources.list.d/home:manuelschneid3r.list
+sudo apt update
+sudo apt install albert
 ```
 - After installation, you can open Albert from Menu/Dash and set hotkey to activate albert.
 
 # Known Issues
-### System Monitor, Calculator don't use GTK Themes
+### System Monitor, Calculator don't use GTK Themes (on Ubuntu)
 - This is because those applications are installed as snap packages. To verify, execute:
 ```bash
 snap list
@@ -106,7 +121,3 @@ sudo snap remove gnome-calculator
 ```bash
 sudo apt install gnome-system-monitor gnome-calculator
 ```
-
-# Test Section 18.04.* LTS
-Hello World
-./END
