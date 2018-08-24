@@ -1,4 +1,4 @@
-[Ubuntu](#test-section-1804-lts)
+# [Ubuntu](#test-section-1804-lts)
 # Install Mac Themes on Ubuntu 18.04.* LTS
 This script installs Themes, Shell Themes, Icons and Cursors that will make you feel like Apple's macOS.
 
