@@ -1,6 +1,5 @@
-# [Ubuntu](#test-section-1804-lts)
-# Install Mac Themes on Ubuntu 18.04.* LTS
-This script installs Themes, Shell Themes, Icons and Cursors that will make you feel like Apple's macOS.
+[# Install macOS Themes on Ubuntu 18.04.* LTS](#install-macos-themes-on-ubuntu-1804-lts)
+[# Install macOS Themes on Kali Linux 2018.* ](#install-macos-themes-on-kali-linux-2018)
 
 # This Customization Pack Includes
 - 2 **_GTK_** Themes
@@ -26,7 +25,25 @@ This script installs Themes, Shell Themes, Icons and Cursors that will make you 
 ### Plymouth Theme
 - [LozanoJack](https://www.gnome-look.org/p/1009320/)
 
-# Installation
+# Install macOS Themes on Ubuntu 18.04.* LTS
+- **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
+```bash
+sudo apt update
+sudo apt install xterm
+```
+- Save [this](https://github.com/debugster/GnomeTweaks/blob/master/InstallMacTheme.sh) script on your desktop.
+### Caution
+- Don't run this script as **sudo**.
+- This script will open **xterm** several times to install some required packages. When promted, enter your password on **xterm** window.
+
+- Open **Terminal** again and execute:
+```bash
+cd Desktop
+chmod +x InstallMacTheme.sh
+./InstallMacTheme.sh
+```
+
+# Install macOS Themes on Kali Linux 2018.*
 - **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
 ```bash
 sudo apt update
