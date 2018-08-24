@@ -1,3 +1,4 @@
+[Additional Installation](#Additional-Installation)
 # Install Mac Themes on Ubuntu 18.04.* LTS
 This script installs Themes, Shell Themes, Icons and Cursors that will make you feel like Apple's macOS.
 
