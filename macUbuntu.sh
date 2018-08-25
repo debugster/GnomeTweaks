@@ -9,14 +9,14 @@ CYAN='\033[1;36m'
 NC='\033[0m' # No Color
 
 clear
-echo -e "			${BROWN}########################################${NC}"
-echo -e "			${BROWN}#  macOS Theme for Ubuntu 18.04.* LTS  #${NC}"
-echo -e "			${BROWN}#--------------------------------------#${NC}"
-echo -e "			${BROWN}#  Author   : Nayeem Mahmood           #${NC}"
-echo -e "			${BROWN}#  Email    : alive.dew@gmail.com      #${NC}"
-echo -e "			${BROWN}#  Facebook : fb.com/alive.nayeem      #${NC}"
-echo -e "			${BROWN}#  GitHub   : github.com/debugster     #${NC}"
-echo -e "			${BROWN}########################################${NC}"
+echo -e "			${BROWN}#####################################${NC}"
+echo -e "			${BROWN}#      macOS Theme for Ubuntu       #${NC}"
+echo -e "			${BROWN}#-----------------------------------#${NC}"
+echo -e "			${BROWN}#  Author   : Nayeem Mahmood        #${NC}"
+echo -e "			${BROWN}#  Email    : alive.dew@gmail.com   #${NC}"
+echo -e "			${BROWN}#  Facebook : fb.com/alive.nayeem   #${NC}"
+echo -e "			${BROWN}#  GitHub   : github.com/debugster  #${NC}"
+echo -e "			${BROWN}#####################################${NC}"
 
 #Install required packages
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Attempting to install Required Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
