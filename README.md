@@ -56,6 +56,7 @@ cd Desktop
 chmod +x macUbuntu.sh
 ./macUbuntu.sh
 ```
+- Log Out/Restart your computer.
 
 # Install macOS Themes on Kali Linux
 - **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
