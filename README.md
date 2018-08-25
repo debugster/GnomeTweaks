@@ -12,8 +12,8 @@ Installing macOS themes on your favourite Linux Distro.
 
 # Choose Your OS
 
-- ## [Ubuntu](#install-macos-themes-on-ubuntu-1804-lts)
-- ## [Kali Linux](#install-macos-themes-on-kali-linux-2018)
+- ## [Ubuntu](#install-macos-themes-on-ubuntu)
+- ## [Kali Linux](#install-macos-themes-on-kali-linux)
 
 # This Customization Pack Includes
 - 2 **_GTK_** Themes
@@ -39,7 +39,7 @@ Installing macOS themes on your favourite Linux Distro.
 ### Plymouth Theme
 - [LozanoJack](https://www.gnome-look.org/p/1009320/)
 
-# Install macOS Themes on Ubuntu 18.04.* LTS
+# Install macOS Themes on Ubuntu
 - **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
 ```bash
 sudo apt update
@@ -57,7 +57,7 @@ chmod +x macUbuntu.sh
 ./macUbuntu.sh
 ```
 
-# Install macOS Themes on Kali Linux 2018.*
+# Install macOS Themes on Kali Linux
 - **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
 ```bash
 sudo apt update
