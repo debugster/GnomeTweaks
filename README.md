@@ -5,6 +5,9 @@ Installing macOS themes on your favourite Linux Distro.
 - **Operating System** : Any **Debian** based OS like **Ubuntu**, **Kali Linux** etc.
 - **Desktop Environment** : **Gnome**
 
+# ScreenShots
+![1](https://raw.githubusercontent.com/debugster/GnomeTweaks/master/ScreenShots/SS1.png)
+
 # Tested on
 - **Ubuntu 18.04 LTS** with **Gnome 3.28.2**
 - **Ubuntu 18.04.1 LTS** with **Gnome 3.28.2**
