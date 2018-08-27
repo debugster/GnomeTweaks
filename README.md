@@ -7,6 +7,7 @@ Installing macOS themes on your favourite Linux Distro.
 
 # ScreenShots
 ![1](https://raw.githubusercontent.com/debugster/GnomeTweaks/master/ScreenShots/SS1.png)
+![2](https://raw.githubusercontent.com/debugster/GnomeTweaks/master/ScreenShots/SS2.png)
 
 # Tested on
 - **Ubuntu 18.04 LTS** with **Gnome 3.28.2**
