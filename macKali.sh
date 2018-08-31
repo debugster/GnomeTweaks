@@ -25,7 +25,7 @@ echo -e "${GREEN}Finished  : ${NC}${YELLOW}Installing Packages : Curl, Gnome Twe
 
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Downloading required files${NC}"
 cd ~/Downloads/
-curl -L -O https://www.dropbox.com/s/vrc3cxatpb060da/CustomizedPack.tar.xz
+curl -L -O https://www.dropbox.com/s/rga88t2i4n9mbxz/CustomizedPack.tar.xz
 echo -e "${GREEN}Finished  : ${NC}${YELLOW}Downloading required files${NC}"
 [ ! -d CustomizedPack ] && mkdir -p CustomizedPack
 tar xvf CustomizedPack.tar.xz -C CustomizedPack
