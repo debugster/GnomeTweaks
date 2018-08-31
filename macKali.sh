@@ -64,7 +64,7 @@ echo -e "${GREEN}Finished  : ${NC}${YELLOW}Blyr, Net Speed Monitor extensions ar
 #Changing UI
 ## Application Theme
 echo -e "${BLUE}Changing Theme${NC}"
-dconf write /org/gnome/desktop/interface/gtk-theme "'McOS-MJV-Dark-mode'"
+dconf write /org/gnome/desktop/interface/gtk-theme "'McOS-MJV-Dark-Mode'"
 
 ## Cursor
 echo -e "${BLUE}Changing Cursor${NC}"
@@ -76,7 +76,7 @@ dconf write /org/gnome/desktop/interface/icon-theme "'MacRemix'"
 
 ## Shell
 echo -e "${BLUE}Changing Shell${NC}"
-dconf write /org/gnome/shell/extensions/user-theme/name "'MacOS_DARK'"
+dconf write /org/gnome/shell/extensions/user-theme/name "'MacOS_Dark'"
 
 ## Wallpaper
 echo -e "${BLUE}Changing Wallpaper${NC}"
