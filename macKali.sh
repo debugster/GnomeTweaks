@@ -64,7 +64,7 @@ echo -e "${GREEN}Finished  : ${NC}${YELLOW}Blyr, Net Speed Monitor extensions ar
 #Changing UI
 ## Application Theme
 echo -e "${BLUE}Changing Theme${NC}"
-dconf write /org/gnome/desktop/interface/gtk-theme "'McOS-MJV'"
+dconf write /org/gnome/desktop/interface/gtk-theme "'McOS-MJV-Dark-mode'"
 
 ## Cursor
 echo -e "${BLUE}Changing Cursor${NC}"
@@ -72,19 +72,19 @@ dconf write /org/gnome/desktop/interface/cursor-theme "'El_Capitan_CursorsMODNew
 
 ## Icons
 echo -e "${BLUE}Changing Icons${NC}"
-dconf write /org/gnome/desktop/interface/icon-theme "'macOS11'"
+dconf write /org/gnome/desktop/interface/icon-theme "'MacRemix'"
 
 ## Shell
 echo -e "${BLUE}Changing Shell${NC}"
-dconf write /org/gnome/shell/extensions/user-theme/name "'MacOS_HS'"
+dconf write /org/gnome/shell/extensions/user-theme/name "'MacOS_DARK'"
 
 ## Wallpaper
 echo -e "${BLUE}Changing Wallpaper${NC}"
 if [ $USER = "root" ]
 then
-	dconf write /org/gnome/desktop/background/picture-uri "'file:///root/Pictures/HighSierra.jpg'"
+	dconf write /org/gnome/desktop/background/picture-uri "'file:///root/Pictures/macOS-mojave-Desert-6.jpg'"
 else
-	dconf write /org/gnome/desktop/background/picture-uri "'file:///home/$USER/Pictures/HighSierra.jpg'"
+	dconf write /org/gnome/desktop/background/picture-uri "'file:///home/$USER/Pictures/macOS-mojave-Desert-6.jpg'"
 fi
 dconf write /org/gnome/desktop/background/picture-options "'zoom'"
 
@@ -92,9 +92,9 @@ dconf write /org/gnome/desktop/background/picture-options "'zoom'"
 echo -e "${BLUE}Changing Lock Screen Wallpaper${NC}"
 if [ $USER = "root" ]
 then
-	dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///root/Pictures/HighSierra.jpg'"
+	dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///root/Pictures/macOS-mojave-Desert-6.jpg'"
 else
-	dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///home/$USER/Pictures/HighSierra.jpg'"
+	dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///home/$USER/Pictures/macOS-mojave-Desert-6.jpg'"
 fi
 dconf write /org/gnome/desktop/screensaver/picture-options "'zoom'"
 
