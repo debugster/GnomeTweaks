@@ -76,7 +76,7 @@ dconf write /org/gnome/desktop/interface/icon-theme "'MacRemix'"
 
 ## Shell
 echo -e "${BLUE}Changing Shell${NC}"
-dconf write /org/gnome/shell/extensions/user-theme/name "'MacOS_Dark'"
+dconf write /org/gnome/shell/extensions/user-theme/name "'MacOS_DARK'"
 
 ## Wallpaper
 echo -e "${BLUE}Changing Wallpaper${NC}"
