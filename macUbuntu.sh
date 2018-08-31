@@ -71,7 +71,7 @@ dconf write /org/gnome/desktop/interface/cursor-theme "'El_Capitan_CursorsMODNew
 
 ## Icons
 echo -e "${BLUE}Changing Icons${NC}"
-dconf write /org/gnome/desktop/interface/icon-theme "'macOS11'"
+dconf write /org/gnome/desktop/interface/icon-theme "'MacRemix'"
 
 ## Shell
 echo -e "${BLUE}Changing Shell${NC}"
@@ -79,12 +79,12 @@ dconf write /org/gnome/shell/extensions/user-theme/name "'MacOS_HS'"
 
 ## Wallpaper
 echo -e "${BLUE}Changing Wallpaper${NC}"
-dconf write /org/gnome/desktop/background/picture-uri "'file:///home/$USER/Pictures/HighSierra.jpg'"
+dconf write /org/gnome/desktop/background/picture-uri "'file:///home/$USER/Pictures/macOS-mojave-Desert-5.jpg'"
 dconf write /org/gnome/desktop/background/picture-options "'zoom'"
 
 ## Lock Screen Wallpaper
 echo -e "${BLUE}Changing Lock Screen Wallpaper${NC}"
-dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///home/$USER/Pictures/HighSierra.jpg'"
+dconf write /org/gnome/desktop/screensaver/picture-uri "'file:///home/$USER/Pictures/macOS-mojave-Desert-5.jpg'"
 dconf write /org/gnome/desktop/screensaver/picture-options "'zoom'"
 
 ## Show Desktop Icons
