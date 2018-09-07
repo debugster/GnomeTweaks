@@ -23,8 +23,8 @@ Installing macOS themes on your favourite Linux Distro.
 - 2 **_GTK_** Themes
 - 2 **_Gnome Shell_** Themes
 - 2 **_Cursor_** Themes
-- 3 **_Icon_** Themes
-- 5 **_Wallpapers_**
+- 4 **_Icon_** Themes
+- 2 **_Wallpapers_**
 - 2 **_Fonts_** (For Gnome Shell)
 - 1 **_Plymouth_** Theme (Optional, only for Ubuntu)
 
