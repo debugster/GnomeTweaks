@@ -44,7 +44,7 @@ Installing macOS themes on your favourite Linux Distro.
 - [LozanoJack](https://www.gnome-look.org/p/1009320/)
 
 # Install macOS Themes on Ubuntu
-- **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
+- **xterm** must be installed in the system. To install **xterm**, open **Terminal** and execute:
 ```bash
 sudo apt update
 sudo apt install xterm
@@ -63,7 +63,7 @@ chmod +x macUbuntu.sh
 - Log Out/Restart your computer.
 
 # Install macOS Themes on Kali Linux
-- **xtrem** must be installed in the system. To install **xterm**, open **Terminal** and execute:
+- **xterm** must be installed in the system. To install **xterm**, open **Terminal** and execute:
 ```bash
 sudo apt update
 sudo apt install xterm
