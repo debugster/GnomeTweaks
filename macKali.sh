@@ -20,7 +20,7 @@ echo -e "			${BROWN}#####################################${NC}"
 
 #Install required packages
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Attempting to install Required Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
-xterm -e 'sh -c "echo Curl, Gnome Tweak Tool and GTK Clutter will be installed. Please enter your password.; sudo apt update; sudo apt install curl gnome-tweak-tool gir1.2-gtkclutter-1.0"'
+xterm -e 'sh -c "echo Curl, Gnome Tweak Tool and GTK Clutter will be installed. Please enter your password.; sudo apt update; sudo apt install curl gnome-tweak-tool gir1.2-gtkclutter-1.0 -y"'
 echo -e "${GREEN}Finished  : ${NC}${YELLOW}Installing Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
 
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Downloading required files${NC}"
