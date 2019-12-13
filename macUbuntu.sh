@@ -20,7 +20,7 @@ echo -e "			${BROWN}#####################################${NC}"
 
 #Install required packages
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Attempting to install Required Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
-xterm -e 'sh -c "echo Curl, Gnome Tweak Tool and GTK Clutter will be installed. Please enter your password.; sudo apt update; sudo apt install curl gnome-tweak-tool gir1.2-gtkclutter-1.0"'
+xterm -e 'sh -c "echo Curl, Gnome Tweak Tool and GTK Clutter will be installed. Please enter your password.; sudo apt update; sudo apt install curl gnome-tweak-tool gir1.2-gtkclutter-1.0 -y"'
 echo -e "${GREEN}Finished  : ${NC}${YELLOW}Installing Packages : Curl, Gnome Tweak Tool, GTK Clutter${NC}"
 
 echo -e "${CYAN}Starting  : ${NC}${YELLOW}Downloading required files${NC}"
@@ -139,7 +139,7 @@ rm -rf CustomizedPack
 rm CustomizedPack.tar.xz
 
 echo -e "${YELLOW}Uninstalling Ubuntu Dock (It might be seen on lock screen)${NC}"
-xterm -e 'sh -c "echo Ubuntu dock will be uninstalled. Please enter your password.; sudo apt-get remove gnome-shell-extension-ubuntu-dock; sudo apt update"'
+xterm -e 'sh -c "echo Ubuntu dock will be uninstalled. Please enter your password.; sudo apt-get remove gnome-shell-extension-ubuntu-dock -y; sudo apt update"'
 echo -e "${CYAN}Theme Credit   : ${NC}${GREEN}paulxfce${NC}"
 echo -e "${CYAN}Shell Credit   : ${NC}${GREEN}unc926${NC}"
 echo -e "${CYAN}Cursor Credit  : ${NC}${GREEN}dcomim | krourke${NC}"
