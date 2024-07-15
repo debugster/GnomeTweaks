@@ -1,3 +1,6 @@
+# Archive Note
+Since the script was written specifically for Ubuntu 18.04 which is outdated, so this repository has been archived.
+
 # Introduction
 Installing macOS themes on your favourite Linux Distro.
 
